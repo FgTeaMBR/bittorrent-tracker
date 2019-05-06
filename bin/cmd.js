@@ -28,7 +28,7 @@ var argv = minimist(process.argv.slice(2), {
     'udp6-hostname'
   ],
   default: {
-    port: 8000,
+    port: 8080,
     stats: true
   }
 })
